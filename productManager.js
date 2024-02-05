@@ -94,7 +94,7 @@ class ProductManager {
 }
 
 // Uso
-const productManager = new ProductManager('productos.json');
+const productManager = new ProductManager('products.json');
 
 productManager.addProduct({
   title: 'Elite trainer box 151',
