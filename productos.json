@@ -25,7 +25,7 @@
         "thumbnail": "img/etbParadoxRift.png",
         "code": "0003",
         "stock": 15
-      }
+      },
       {
         "id": 4,
         "title": "Elite trainer box Astral Radiance",
@@ -34,7 +34,7 @@
         "thumbnail": "img/etbAstralRadiance.jpg",
         "code": "0004",
         "stock": 9
-      }
+      },
       {
         "id": 5,
         "title": "Elite trainer box Lost Origin",
@@ -43,7 +43,7 @@
         "thumbnail": "img/etbLostOrigin.jpg",
         "code": "0005",
         "stock": 10
-      }
+      },
       {
         "id": 6,
         "title": "Elite trainer box Obsidian Flames",
@@ -52,7 +52,7 @@
         "thumbnail": "img/etbObsidianFlames.jpg",
         "code": "0006",
         "stock": 14
-      }
+      },
       {
         "id": 7,
         "title": "Elite trainer box Paldea Evolved",
@@ -61,7 +61,7 @@
         "thumbnail": "img/etbPaldeaEvolved.jpg",
         "code": "0007",
         "stock": 20
-      }
+      },
       {
         "id": 8,
         "title": "Elite trainer box Paldean Fates",
@@ -70,7 +70,7 @@
         "thumbnail": "img/etbPaldeanFates.jpg",
         "code": "0008",
         "stock": 11
-      }
+      },
       {
         "id": 9,
         "title": "Elite trainer box Scarlet and Violet",
@@ -79,7 +79,7 @@
         "thumbnail": "img/etbScarletAndViolet.jpg",
         "code": "0009",
         "stock": 30
-      }
+      },
       {
         "id": 10,
         "title": "Elite trainer box Silver Tempest",
@@ -88,6 +88,6 @@
         "thumbnail": "img/etbSilverTempest.jpg",
         "code": "0010",
         "stock": 26
-      },
+      }
   ]
   
