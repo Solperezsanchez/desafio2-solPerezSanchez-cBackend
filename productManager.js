@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = import('fs');
 
 class ProductManager {
   constructor(filePath) {

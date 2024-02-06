@@ -1,5 +1,5 @@
-const express = require('express');
-const ProductManager = require('..desafio2-solPerezSanchez-cBackend/ProductManager');
+const express = import('express');
+const ProductManager = import('..desafio2-solPerezSanchez-cBackend/ProductManager');
 
 const app = express();
 const port = 8080; 
