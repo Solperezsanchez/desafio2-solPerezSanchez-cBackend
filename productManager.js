@@ -1,4 +1,4 @@
-const fs = import('fs');
+import fs from 'fs';
 
 class ProductManager {
   constructor(filePath) {
@@ -93,36 +93,4 @@ class ProductManager {
   }
 }
 
-// Uso
-const productManager = new ProductManager('products.json');
-
-productManager.addProduct({
-  title: 'Elite trainer box 151',
-  description:
-    '1 tarjeta promocional de foil de arte completo con Snorlax. 65 fundas para cartas. 45 cartas de Energía de Pokémon TCG. Una guía para jugadores de la expansión Scarlet & Violet—151.',
-  price: 185000,
-  thumbnail: 'etbSnorlax.png',
-  code: '0001',
-  stock: 10,
-});
-
-productManager.addProduct({
-  title: 'Elite trainer box vivid voltage',
-  description: '"La Caja de Entrenador Élite de Espada y Escudo-Voltaje Vívido de JCC Pokémon incluye  -8 paquetes de mejora de Espada y Escudo-Voltaje Vívido de JCC Pokémon-65 fundas para cartas inspiradas en Pikachu Gigamax-45 cartas de Energía de JCC Pokémon-1 guía para jugadores de la expansión Espada y Escudo-Voltaje Vívido-1 libro de reglas de JCC Pokémon-6 dados de contadores de daño-1 dado para lanzamiento de moneda válido para competiciones legales-2 marcadores de condición acrílicos-1 caja de coleccionista para guardarlo todo con 4 divisores para mantenerlo todo organizado-1 carta con código para el Juego de Cartas Coleccionables Pokémon Online"',
-  price: 170000,
-  thumbnail: 'etbPikachu.png',
-  code: '0002',
-  stock: 8,
-});
-
-console.log('Todos los productos:', productManager.getProducts());
-
-const productIdToUpdate = 2;
-productManager.updateProduct(productIdToUpdate, { price: 175000, stock: 5 });
-
-console.log('Productos actualizados:', productManager.getProducts());
-
-const productIdToDelete = 1;
-productManager.deleteProduct(productIdToDelete);
-
-console.log('Productos después de eliminar:', productManager.getProducts());
+export default ProductManager;
