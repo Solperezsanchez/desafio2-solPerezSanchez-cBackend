@@ -1,18 +1,15 @@
 {
-  "dependencies": {
-    "express": "^4.18.2"
-  },
   "name": "productmanagersolperezsanchez",
   "version": "1.0.0",
+  "description": "",
   "main": "productManager.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "type":"module"
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
-
