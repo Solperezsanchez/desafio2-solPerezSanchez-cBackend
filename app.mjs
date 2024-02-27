@@ -1,5 +1,5 @@
 import express from 'express';
-import routes from './routes.js';
+import routes from './routes.mjs';
 
 const app = express();
 const port = 8080;
